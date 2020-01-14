@@ -18,11 +18,8 @@ end
 
 def long_planeteer_calls(array)# code an argument here
  
- if array.each {|n| n.length >= 4}  
-  true
-elsif
-  false 
-  end
+ array.each {|n| n.length >= 4} ? true : false  
+  
 end
 
 #def find_the_cheese(array)# code an argument here
