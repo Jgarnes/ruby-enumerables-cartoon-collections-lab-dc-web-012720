@@ -18,6 +18,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
  new_array = array.split(" ")
+ more_than = new_array.map |n|
  if array.length do |n| 
     n >= 4
     true 
