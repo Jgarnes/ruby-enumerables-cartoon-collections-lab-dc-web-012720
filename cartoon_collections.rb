@@ -32,7 +32,7 @@ def find_the_cheese(array)# code an argument here
    
   cheese_types.each do |word|
     if word.include?(word)
-      puts word 
+      return word 
     end
 end
 end 
