@@ -17,11 +17,10 @@ def summon_captain_planet(array)# code an argument here
 end
 
 def long_planeteer_calls(array)# code an argument here
- more_than = array.map do |n|
-   n 
- if more_than.length >= 4 
+ 
+ if array.each {|n| n.length >= 4}  
   true
-elsif more_than.length <= 4
+elsif array.each {|n| n.length <= 4}
   false 
   end
 end
