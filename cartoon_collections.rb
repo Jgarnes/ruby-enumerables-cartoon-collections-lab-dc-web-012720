@@ -24,7 +24,6 @@ elsif array.each {|n| n.length <= 4}
   false 
   end
 end
-end
 
 #def find_the_cheese(array)# code an argument here
   # the array below is here to help
