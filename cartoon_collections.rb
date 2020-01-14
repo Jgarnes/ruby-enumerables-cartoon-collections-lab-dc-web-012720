@@ -18,7 +18,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   word = array.each do |i|
-    if 
+    if word.
     
     
 end
