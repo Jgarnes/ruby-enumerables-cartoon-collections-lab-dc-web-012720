@@ -31,7 +31,7 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   while i < cheese_types.length do 
   array.each do |word|
-    word.include(cheese_types[i])
+    word.include?(cheese_types[i])
 end
 i += 1 
 end 
